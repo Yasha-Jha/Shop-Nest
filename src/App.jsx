@@ -16,7 +16,7 @@ function App() {
           <Route path="/" element={<Shop />} />
           <Route path="/mens" element={<ShopCategory category="mens" />} />
           <Route path="/womens" element={<ShopCategory category="womens" />} />
-          <Route path="/kidss" element={<ShopCategory category="kids" />} />
+          <Route path="/kids" element={<ShopCategory category="kids" />} />
           <Route path="/product" element={<Product />}>
             <Route path=":productId" element={<Product />} />
           </Route>
@@ -24,6 +24,7 @@ function App() {
           <Route path="/login" element={<LoginSingup />} />
         </Routes>
       </BrowserRouter>
+      <Shop />
     </>
   );
 }

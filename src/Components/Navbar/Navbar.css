@@ -80,3 +80,8 @@
   background-color: red;
   color: white;
 }
+
+Link,
+a {
+  text-decoration: none;
+}
